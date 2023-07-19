@@ -117,7 +117,7 @@ CNN的核心思想是通过卷积层、激活函数层、池化层等不同类�
 * 反向传播以计算梯度
 * 使用梯度更新参数
 
-常见的激活函数包括sigmoid、tanh、ReLU、leaky ReLU、ELU和Maxout：
+常见的激活函数包括[sigmoid、tanh、ReLU、leaky ReLU、ELU和Maxout](https://zhuanlan.zhihu.com/p/260970955)：
 
 * Sigmoid将数值压缩到0和1之间，但存在梯度消失问题，且不是以零为中心
 * Tanh将数值压缩到-1和1之间，它以零为中心，但仍然存在梯度消失问题
